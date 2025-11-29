@@ -1,16 +1,3 @@
-# flutter1
+BookTrack Lite is a simple Flutter application designed to help users look up and manage books stored in a Firebase Firestore database. The app allows users to search for a book by its title, view details such as the author and the number of available copies, and update the number of copies when needed.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+The interface provides clear feedback when books are found, unavailable, or missing from the database. It also highlights issues such as invalid input or Firebase initialization errors to ensure smoother use. Overall, the project serves as a lightweight library management tool that demonstrates basic integration between Flutter and Firebase, real-time data handling, and simple CRUD-style functionality.
